@@ -24,8 +24,6 @@ def get_category(filename):
         return 'unknown'
 
 # функція для нормалізації імен файлів
-
-
 def normalize(filename):
     # Створюємо словник для транслітерації
     translit_dict = {'а': 'a', 'б': 'b', 'в': 'v', 'г': 'h', 'ґ': 'g', 'д': 'd', 'е': 'e', 'є': 'ie',
