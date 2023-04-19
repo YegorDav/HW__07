@@ -1,6 +1,4 @@
 import os
-import sys
-import shutil
 
 # список розширень для кожної категорії
 IMAGE_EXT = ('JPEG', 'JPG', 'PNG', 'SVG')
@@ -10,8 +8,6 @@ MUSIC_EXT = ('MP3', 'OGG', 'WAV', 'AMR')
 ARCHIVE_EXT = ('ZIP', 'GZ', 'TAR')
 
 # функція для перевірки розширення файлу та повернення категорії
-
-
 def get_category(filename):
     ext = os.path.splitext(filename)[1][1:].upper()
     if ext in IMAGE_EXT:
