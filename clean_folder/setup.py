@@ -7,7 +7,7 @@ def setup(name='clean_folder',
         author='Yegor_Davydenko',
         license='MIT',
         packages=find_namespace_packages(),
-        entry_points={'console_scripts':['clean = clean_folder.clean:get_category,normalize']})
+        entry_points={'console_scripts':['clean = clean_folder.clean:main']})
 
 
 

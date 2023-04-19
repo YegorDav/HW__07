@@ -51,3 +51,10 @@ def normalize(filename):
             cyrillic_char, latin_char)
 
     return
+
+    # функція для узагальненя визову
+def main():
+    get_category()
+    normalize()
+if __name__ == '__main__':
+    main()
